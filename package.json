@@ -1,0 +1,16 @@
+{
+  "name": "postgraphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "postgraphile": "^4.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start-db": "docker-compose up -d",
+    "start": "postgraphile -c \"postgres://postgres:postgres@localhost:5432/testdb\""
+  },
+  "author": "Ryan Xiao",
+  "license": "ISC"
+}
